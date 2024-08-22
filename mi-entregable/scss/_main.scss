@@ -1,0 +1,127 @@
+.main1{
+        .section-img-bandera {
+        display: flex; 
+        align-items: center; 
+      }
+      
+      .primerImagen {
+        padding: 20px;
+        margin-right: 10px; /* Espacio entre la imagen y el texto */
+        border-radius: 5px;
+      }
+      
+      .tran1 {
+        
+        background-color: #c5cbc820;
+        transition: all 2s;
+
+      }
+      .tran1:hover {
+        background-color: #03773dcc;
+        color: black;
+      }
+
+  
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+      
+      .subtitulo.h2 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        padding: 60px;
+      }
+      
+      .image {
+        max-width: 40%;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        padding: 30px;
+      }
+
+    
+      
+      .text {
+        text-align: center;
+        padding: 32px;
+        font-weight: 200;
+        
+      }
+
+      h3.name{
+        font-size: 30px;
+        text-decoration: overline;
+        padding: 0
+    ;
+      }
+
+      .tran2{
+        transition: all 2s;
+      }
+
+      .tran2:hover {
+        transform: scale(1.1);
+        background-color: #03773d;
+        color: $hover-color;
+      }
+
+      h2 {
+        color: $titulo-color;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+        background: #03773d;
+        width: 100vw; /* Ancho igual al 100% del viewport */
+        height: auto; /* Alto igual al 100% del viewport */
+        
+      }
+      
+      }
+      
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 20px;
+      }
+      
+
+
+
+    .container {
+        h2.subtitulo.h2 {
+            font-size: 1.5rem; 
+            color: $sub-color; 
+            margin-bottom: 1rem; // Espaciado inferior
+            font-weight:bold;
+            text-align: center;
+        }
+        .services-list {
+            display: flex;
+            flex-wrap: wrap; // Permitir que los elementos se envuelvan en varias líneas
+            flex-direction: column;
+            padding: 40px;
+
+            .service {
+                background-color: $green-color;
+                padding: 15px 20px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+                text-decoration: none;
+                color: $titulo-color;
+                border-radius: 5px;
+                text-align: center;
+                font-size: 20px;
+             
+                &:hover {
+                    background-color: #025c2f; // Oscurecer al pasar el ratón
+                    color: $hover-color; // Cambiar color del texto al pasar el ratón
+                    border: black;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }

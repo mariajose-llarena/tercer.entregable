@@ -1,0 +1,337 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: "Montserrat";
+}
+
+header {
+  background-color: #03773d;
+  color: #03773d;
+  padding: 0px;
+  text-align: center;
+}
+
+.logo-gestoria {
+  display: block;
+  margin: 0 auto;
+  max-width: 70px;
+}
+
+nav {
+  background-color: transparent;
+  padding: 10px 0;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 40px;
+  background-color: rgba(197, 203, 200, 0.1254901961);
+}
+
+.nav-link {
+  color: #03773d;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.9s;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.main1 .section-img-bandera {
+  display: flex;
+  align-items: center;
+}
+.main1 .primerImagen {
+  padding: 20px;
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+  border-radius: 5px;
+}
+.main1 .tran1 {
+  background-color: rgba(197, 203, 200, 0.1254901961);
+  transition: all 2s;
+}
+.main1 .tran1:hover {
+  background-color: rgba(3, 119, 61, 0.8);
+  color: black;
+}
+.main1 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.main1 .subtitulo.h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  padding: 60px;
+}
+.main1 .image {
+  max-width: 40%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 30px;
+}
+.main1 .text {
+  text-align: center;
+  padding: 32px;
+  font-weight: 200;
+}
+.main1 h3.name {
+  font-size: 30px;
+  text-decoration: overline;
+  padding: 0;
+}
+.main1 .tran2 {
+  transition: all 2s;
+}
+.main1 .tran2:hover {
+  transform: scale(1.1);
+  background-color: #03773d;
+  color: white;
+}
+.main1 h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+  background: #03773d;
+  width: 100vw; /* Ancho igual al 100% del viewport */
+  height: auto; /* Alto igual al 100% del viewport */
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+.container h2.subtitulo.h2 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+.container .services-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 40px;
+}
+.container .services-list .service {
+  background-color: #03773d;
+  padding: 15px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+.container .services-list .service:hover {
+  background-color: #025c2f;
+  color: white;
+  border: black;
+  transform: scale(1.1);
+}
+
+.main2 .container h3 {
+  text-align: center;
+  background-color: #03773d;
+  color: white;
+  padding: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.main2 .container p {
+  padding: 30px;
+}
+.main2 .container .text-nos {
+  text-align: center;
+  text-align: justify;
+  padding: auto;
+}
+
+.main3 .container h3 {
+  text-align: center;
+  background-color: #03773d;
+  color: white;
+  padding: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.main3 .container p {
+  padding: 30px;
+}
+.main3 .container .text-nos {
+  text-align: center;
+  text-align: justify;
+  padding: auto;
+}
+
+.main4 .container h3 {
+  text-align: center;
+  background-color: #03773d;
+  color: white;
+  padding: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.main4 .container p {
+  padding: 30px;
+}
+.main4 .container h4 {
+  font-weight: 600;
+  color: #03773d;
+}
+.main4 .container .text-nos {
+  text-align: center;
+  text-align: justify;
+  padding: auto;
+}
+
+.main6 .container h3 {
+  text-align: center;
+  background-color: #03773d;
+  color: white;
+  padding: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.main6 .container p {
+  padding: 30px;
+}
+.main6 .container h4 {
+  font-weight: 600;
+  color: #03773d;
+}
+.main6 .container .text-nos {
+  text-align: center;
+  text-align: justify;
+  padding: auto;
+}
+
+.main7 h3 {
+  text-align: center;
+  background-color: #03773d;
+  color: white;
+  padding: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.main7 .form-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 0;
+  max-width: 800;
+}
+.main7 .form-container .consulta-form {
+  display: flex;
+  flex-direction: column;
+}
+.main7 .form-container .form-group {
+  margin-bottom: 20px;
+}
+.main7 .form-container label {
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 100%;
+}
+.main7 .form-container input, .main7 .form-container select {
+  padding: 5px;
+  border: 1px solid #03773d;
+  border-radius: 3px;
+}
+.main7 .form-container button {
+  padding: 10px;
+  background-color: rgba(205, 33, 42, 0.8941176471);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 150px;
+  max-width: 160px;
+  margin: 0 auto;
+  transition: all 1s;
+}
+.main7 .form-container button:hover {
+  background-color: #03773d;
+  transform: scale(1.2);
+}
+
+.footer {
+  background-color: #03773d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.footer .footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.footer .footer-container .footer-section {
+  flex-basis: 25%;
+  padding: 10px;
+}
+.footer .footer-container .footer-section h2 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: black;
+}
+.footer .footer-container .footer-section p {
+  font-size: 1rem;
+  line-height: 1.9;
+  margin-bottom: auto;
+}
+.footer .footer-container .footer-section ul {
+  list-style-type: none;
+  padding: 10px;
+}
+.footer .footer-container .footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+.footer .footer-container .footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+.footer .footer-container .footer-section ul li a:hover {
+  text-decoration: underline;
+  color: black;
+}
+.footer .footer-bottom {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  padding-bottom: 0;
+}
+.footer .footer-bottom p {
+  margin-bottom: 0;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../font/Montserrat-Regular.ttf") format("truetype");
+}
+
+/*# sourceMappingURL=estilo.css.map */

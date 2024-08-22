@@ -1,0 +1,46 @@
+// Estilo para el encabezado
+header {
+    background-color: $green-color;
+    color:$green-color;
+    padding: 0px;
+    text-align: center;
+}
+
+// Estilo para el logotipo
+.logo-gestoria {
+    display: block;
+    margin: 0 auto;
+    max-width: 70px; 
+}
+
+// Estilo para el menú de navegación
+nav {
+    background-color: transparent; 
+    padding: 10px 0;
+}
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 40px;
+    background-color:#c5cbc820;   ;
+}
+
+.nav-link {
+    color: $green-color; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.9s;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: $sub-color; 
+    font-weight: bolder;
+}
+
+
+
+
